@@ -1,0 +1,18 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+#ifdef DEBUG
+#   define DEBUG_STR(...) NSLog(__VA_ARGS__);
+#   define DEBUG_METHOD(format, ...) NSLog(format, ##__VA_ARGS__);
+#else
+#   define DEBUG_STR(...) NSLog(__VA_ARGS__);
+#   define DEBUG_METHOD(format, ...) NSLog(format, ##__VA_ARGS__);
+#endif
+
+#endif

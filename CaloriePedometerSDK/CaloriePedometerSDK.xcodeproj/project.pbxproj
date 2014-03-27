@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B13FA7418E2EB7800E93522 /* YZSleepDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B13FA7318E2EB7800E93522 /* YZSleepDataOperation.m */; };
+		6B13FA7718E2EB9500E93522 /* YZSportsDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B13FA7618E2EB9500E93522 /* YZSportsDataOperation.m */; };
+		6B30260D18D1C00D00C9DB95 /* CoreDataManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B8AF07F18D05EB70026CC92 /* CoreDataManager.h */; };
+		6B30260E18D1C02200C9DB95 /* PacketsRecord.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B8AF09018D066620026CC92 /* PacketsRecord.h */; };
+		6B30261018D1C02200C9DB95 /* SleepDataRecord.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B8AF08A18D066610026CC92 /* SleepDataRecord.h */; };
+		6B54D4A018D98D1300B5A8E9 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B54D49F18D98D1300B5A8E9 /* History.m */; };
+		6B6FED2518C06670007CD84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FED2418C06670007CD84C /* Foundation.framework */; };
+		6B6FED2A18C06670007CD84C /* CaloriePedometerSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B6FED2918C06670007CD84C /* CaloriePedometerSDK.h */; };
+		6B6FED2C18C06670007CD84C /* CaloriePedometerSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FED2B18C06670007CD84C /* CaloriePedometerSDK.m */; };
+		6B6FED3318C06670007CD84C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FED3218C06670007CD84C /* XCTest.framework */; };
+		6B6FED3418C06670007CD84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FED2418C06670007CD84C /* Foundation.framework */; };
+		6B6FED3618C06670007CD84C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FED3518C06670007CD84C /* UIKit.framework */; };
+		6B6FED3918C06670007CD84C /* libCaloriePedometerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FED2118C06670007CD84C /* libCaloriePedometerSDK.a */; };
+		6B6FED3F18C06670007CD84C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B6FED3D18C06670007CD84C /* InfoPlist.strings */; };
+		6B6FED4118C06670007CD84C /* CaloriePedometerSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FED4018C06670007CD84C /* CaloriePedometerSDKTests.m */; };
+		6B8A973018DA8C1D0016B556 /* SyncRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A972F18DA8C1D0016B556 /* SyncRecord.m */; };
+		6B8AF08118D05EB70026CC92 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8AF08018D05EB70026CC92 /* CoreDataManager.m */; };
+		6B8AF08318D05ED40026CC92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8AF08218D05ED40026CC92 /* CoreData.framework */; };
+		6B8AF08C18D066610026CC92 /* SleepDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8AF08B18D066610026CC92 /* SleepDataRecord.m */; };
+		6B8AF09218D066620026CC92 /* PacketsRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8AF09118D066620026CC92 /* PacketsRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B6FED3718C06670007CD84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B6FED1918C06670007CD84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6FED2018C06670007CD84C;
+			remoteInfo = CaloriePedometerSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B6FED1F18C06670007CD84C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6B30260E18D1C02200C9DB95 /* PacketsRecord.h in CopyFiles */,
+				6B30261018D1C02200C9DB95 /* SleepDataRecord.h in CopyFiles */,
+				6B30260D18D1C00D00C9DB95 /* CoreDataManager.h in CopyFiles */,
+				6B6FED2A18C06670007CD84C /* CaloriePedometerSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B13FA7218E2EB7800E93522 /* YZSleepDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSleepDataOperation.h; sourceTree = "<group>"; };
+		6B13FA7318E2EB7800E93522 /* YZSleepDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSleepDataOperation.m; sourceTree = "<group>"; };
+		6B13FA7518E2EB9500E93522 /* YZSportsDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSportsDataOperation.h; sourceTree = "<group>"; };
+		6B13FA7618E2EB9500E93522 /* YZSportsDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSportsDataOperation.m; sourceTree = "<group>"; };
+		6B54D49E18D98D1300B5A8E9 /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		6B54D49F18D98D1300B5A8E9 /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		6B6FED2118C06670007CD84C /* libCaloriePedometerSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCaloriePedometerSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6FED2418C06670007CD84C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B6FED2818C06670007CD84C /* CaloriePedometerSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaloriePedometerSDK-Prefix.pch"; sourceTree = "<group>"; };
+		6B6FED2918C06670007CD84C /* CaloriePedometerSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaloriePedometerSDK.h; sourceTree = "<group>"; };
+		6B6FED2B18C06670007CD84C /* CaloriePedometerSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaloriePedometerSDK.m; sourceTree = "<group>"; };
+		6B6FED3118C06670007CD84C /* CaloriePedometerSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriePedometerSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6FED3218C06670007CD84C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B6FED3518C06670007CD84C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6B6FED3C18C06670007CD84C /* CaloriePedometerSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaloriePedometerSDKTests-Info.plist"; sourceTree = "<group>"; };
+		6B6FED3E18C06670007CD84C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B6FED4018C06670007CD84C /* CaloriePedometerSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaloriePedometerSDKTests.m; sourceTree = "<group>"; };
+		6B8A972E18DA8C1D0016B556 /* SyncRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncRecord.h; sourceTree = "<group>"; };
+		6B8A972F18DA8C1D0016B556 /* SyncRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncRecord.m; sourceTree = "<group>"; };
+		6B8AF07F18D05EB70026CC92 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		6B8AF08018D05EB70026CC92 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		6B8AF08218D05ED40026CC92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B8AF08A18D066610026CC92 /* SleepDataRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepDataRecord.h; sourceTree = "<group>"; };
+		6B8AF08B18D066610026CC92 /* SleepDataRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepDataRecord.m; sourceTree = "<group>"; };
+		6B8AF09018D066620026CC92 /* PacketsRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketsRecord.h; sourceTree = "<group>"; };
+		6B8AF09118D066620026CC92 /* PacketsRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketsRecord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6FED1E18C06670007CD84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8AF08318D05ED40026CC92 /* CoreData.framework in Frameworks */,
+				6B6FED2518C06670007CD84C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6FED2E18C06670007CD84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6FED3918C06670007CD84C /* libCaloriePedometerSDK.a in Frameworks */,
+				6B6FED3318C06670007CD84C /* XCTest.framework in Frameworks */,
+				6B6FED3618C06670007CD84C /* UIKit.framework in Frameworks */,
+				6B6FED3418C06670007CD84C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B30260818D1693A00C9DB95 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				6B8AF09018D066620026CC92 /* PacketsRecord.h */,
+				6B8AF09118D066620026CC92 /* PacketsRecord.m */,
+				6B8AF08A18D066610026CC92 /* SleepDataRecord.h */,
+				6B8AF08B18D066610026CC92 /* SleepDataRecord.m */,
+				6B8AF07F18D05EB70026CC92 /* CoreDataManager.h */,
+				6B8AF08018D05EB70026CC92 /* CoreDataManager.m */,
+				6B13FA7218E2EB7800E93522 /* YZSleepDataOperation.h */,
+				6B13FA7318E2EB7800E93522 /* YZSleepDataOperation.m */,
+				6B13FA7518E2EB9500E93522 /* YZSportsDataOperation.h */,
+				6B13FA7618E2EB9500E93522 /* YZSportsDataOperation.m */,
+				6B54D49E18D98D1300B5A8E9 /* History.h */,
+				6B54D49F18D98D1300B5A8E9 /* History.m */,
+				6B8A972E18DA8C1D0016B556 /* SyncRecord.h */,
+				6B8A972F18DA8C1D0016B556 /* SyncRecord.m */,
+			);
+			name = coreData;
+			sourceTree = "<group>";
+		};
+		6B6FED1818C06670007CD84C = {
+			isa = PBXGroup;
+			children = (
+				6B6FED2618C06670007CD84C /* CaloriePedometerSDK */,
+				6B6FED3A18C06670007CD84C /* CaloriePedometerSDKTests */,
+				6B6FED2318C06670007CD84C /* Frameworks */,
+				6B6FED2218C06670007CD84C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B6FED2218C06670007CD84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FED2118C06670007CD84C /* libCaloriePedometerSDK.a */,
+				6B6FED3118C06670007CD84C /* CaloriePedometerSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B6FED2318C06670007CD84C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8AF08218D05ED40026CC92 /* CoreData.framework */,
+				6B6FED2418C06670007CD84C /* Foundation.framework */,
+				6B6FED3218C06670007CD84C /* XCTest.framework */,
+				6B6FED3518C06670007CD84C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B6FED2618C06670007CD84C /* CaloriePedometerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6B30260818D1693A00C9DB95 /* coreData */,
+				6B6FED2918C06670007CD84C /* CaloriePedometerSDK.h */,
+				6B6FED2B18C06670007CD84C /* CaloriePedometerSDK.m */,
+				6B6FED2718C06670007CD84C /* Supporting Files */,
+			);
+			path = CaloriePedometerSDK;
+			sourceTree = "<group>";
+		};
+		6B6FED2718C06670007CD84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FED2818C06670007CD84C /* CaloriePedometerSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B6FED3A18C06670007CD84C /* CaloriePedometerSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FED4018C06670007CD84C /* CaloriePedometerSDKTests.m */,
+				6B6FED3B18C06670007CD84C /* Supporting Files */,
+			);
+			path = CaloriePedometerSDKTests;
+			sourceTree = "<group>";
+		};
+		6B6FED3B18C06670007CD84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FED3C18C06670007CD84C /* CaloriePedometerSDKTests-Info.plist */,
+				6B6FED3D18C06670007CD84C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B6FED2018C06670007CD84C /* CaloriePedometerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6FED4418C06670007CD84C /* Build configuration list for PBXNativeTarget "CaloriePedometerSDK" */;
+			buildPhases = (
+				6B6FED1D18C06670007CD84C /* Sources */,
+				6B6FED1E18C06670007CD84C /* Frameworks */,
+				6B6FED1F18C06670007CD84C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaloriePedometerSDK;
+			productName = CaloriePedometerSDK;
+			productReference = 6B6FED2118C06670007CD84C /* libCaloriePedometerSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B6FED3018C06670007CD84C /* CaloriePedometerSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6FED4718C06670007CD84C /* Build configuration list for PBXNativeTarget "CaloriePedometerSDKTests" */;
+			buildPhases = (
+				6B6FED2D18C06670007CD84C /* Sources */,
+				6B6FED2E18C06670007CD84C /* Frameworks */,
+				6B6FED2F18C06670007CD84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6FED3818C06670007CD84C /* PBXTargetDependency */,
+			);
+			name = CaloriePedometerSDKTests;
+			productName = CaloriePedometerSDKTests;
+			productReference = 6B6FED3118C06670007CD84C /* CaloriePedometerSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6FED1918C06670007CD84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "马远征";
+			};
+			buildConfigurationList = 6B6FED1C18C06670007CD84C /* Build configuration list for PBXProject "CaloriePedometerSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B6FED1818C06670007CD84C;
+			productRefGroup = 6B6FED2218C06670007CD84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B6FED2018C06670007CD84C /* CaloriePedometerSDK */,
+				6B6FED3018C06670007CD84C /* CaloriePedometerSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B6FED2F18C06670007CD84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6FED3F18C06670007CD84C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B6FED1D18C06670007CD84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B13FA7418E2EB7800E93522 /* YZSleepDataOperation.m in Sources */,
+				6B6FED2C18C06670007CD84C /* CaloriePedometerSDK.m in Sources */,
+				6B8AF08C18D066610026CC92 /* SleepDataRecord.m in Sources */,
+				6B8AF09218D066620026CC92 /* PacketsRecord.m in Sources */,
+				6B8AF08118D05EB70026CC92 /* CoreDataManager.m in Sources */,
+				6B54D4A018D98D1300B5A8E9 /* History.m in Sources */,
+				6B13FA7718E2EB9500E93522 /* YZSportsDataOperation.m in Sources */,
+				6B8A973018DA8C1D0016B556 /* SyncRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6FED2D18C06670007CD84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6FED4118C06670007CD84C /* CaloriePedometerSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B6FED3818C06670007CD84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6FED2018C06670007CD84C /* CaloriePedometerSDK */;
+			targetProxy = 6B6FED3718C06670007CD84C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B6FED3D18C06670007CD84C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B6FED3E18C06670007CD84C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B6FED4218C06670007CD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B6FED4318C06670007CD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B6FED4518C06670007CD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				CONFIGURATION_BUILD_DIR = "../CaloriePedometer_Project/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/CaloriePedometerSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaloriePedometerSDK/CaloriePedometerSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B55136A0-0478-404C-8270-2A50EDD6B761";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B6FED4618C06670007CD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				CONFIGURATION_BUILD_DIR = "../CaloriePedometer_Project/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/CaloriePedometerSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaloriePedometerSDK/CaloriePedometerSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "987DEC65-66F3-49E6-A2C0-25998D38B093";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6B6FED4818C06670007CD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaloriePedometerSDK/CaloriePedometerSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaloriePedometerSDKTests/CaloriePedometerSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B6FED4918C06670007CD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaloriePedometerSDK/CaloriePedometerSDK-Prefix.pch";
+				INFOPLIST_FILE = "CaloriePedometerSDKTests/CaloriePedometerSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B6FED1C18C06670007CD84C /* Build configuration list for PBXProject "CaloriePedometerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6FED4218C06670007CD84C /* Debug */,
+				6B6FED4318C06670007CD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6FED4418C06670007CD84C /* Build configuration list for PBXNativeTarget "CaloriePedometerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6FED4518C06670007CD84C /* Debug */,
+				6B6FED4618C06670007CD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6FED4718C06670007CD84C /* Build configuration list for PBXNativeTarget "CaloriePedometerSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6FED4818C06670007CD84C /* Debug */,
+				6B6FED4918C06670007CD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B6FED1918C06670007CD84C /* Project object */;
+}

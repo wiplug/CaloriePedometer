@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppDelegate.h"
+    #import <CoreData/CoreData.h>
+
+    #define iOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 
+    #define KScreenWidth  [[UIScreen mainScreen]bounds].size.width
+    #define KScreenHeight [[UIScreen mainScreen]bounds].size.height
+    #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#ifdef DEBUG
+#   define DEBUG_STR(...) NSLog(__VA_ARGS__);
+#   define DEBUG_METHOD(format, ...) NSLog(format, ##__VA_ARGS__);
+#else
+#   define DEBUG_STR(...)
+#   define DEBUG_METHOD(format, ...)
+#endif
+
+#endif

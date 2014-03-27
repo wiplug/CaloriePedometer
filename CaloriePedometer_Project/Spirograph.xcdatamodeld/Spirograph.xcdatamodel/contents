@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="History" representedClassName="History" syncable="YES">
+        <attribute name="utcTime" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="packetsRecord" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PacketsRecord" inverseName="history" inverseEntity="PacketsRecord" syncable="YES"/>
+        <relationship name="sleepDataRecord" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SleepDataRecord" inverseName="history" inverseEntity="SleepDataRecord" syncable="YES"/>
+    </entity>
+    <entity name="PacketsRecord" representedClassName="PacketsRecord" syncable="YES">
+        <attribute name="calorieCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stepCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="utcTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="history" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="packetsRecord" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <entity name="SleepDataRecord" representedClassName="SleepDataRecord" syncable="YES">
+        <attribute name="sleepData" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="utcTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="history" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="sleepDataRecord" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <entity name="SyncRecord" representedClassName="SyncRecord" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="steps" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="utcTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="-18" positionY="36" width="128" height="90"/>
+        <element name="PacketsRecord" positionX="-54" positionY="-9" width="128" height="103"/>
+        <element name="SleepDataRecord" positionX="-36" positionY="9" width="128" height="88"/>
+        <element name="SyncRecord" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
